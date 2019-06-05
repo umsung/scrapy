@@ -1,0 +1,21 @@
+2019-03-12 18:00:02,304 - BrowserEngine - INFO - 获取浏览器类型 Chrome
+2019-03-12 18:00:02,304 - BrowserEngine - INFO - 获取打开的网址 https://www.baidu.com
+2019-03-12 18:00:04,598 - BrowserEngine - INFO - 浏览器类型 Chrome
+2019-03-12 18:00:05,886 - BrowserEngine - INFO - 打开网址 https://www.baidu.com
+2019-03-12 18:00:06,297 - BrowserEngine - INFO - 窗口最大化
+2019-03-12 18:00:06,298 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2019-03-12 18:00:06,335 - BasePage - INFO - Had find the element '  ' successful by id via value: kw 
+2019-03-12 18:00:06,577 - BasePage - INFO - Had type ' selenium ' in inputBox
+2019-03-12 18:00:06,636 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="su"] 
+2019-03-12 18:00:06,648 - BasePage - INFO - the element /  / is clicked.
+2019-03-12 18:00:07,736 - BasePage - INFO - Had find the element '  ' successful by id via value: kw 
+2019-03-12 18:00:07,847 - BasePage - INFO - Had type ' python ' in inputBox
+2019-03-12 18:00:07,872 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="su"] 
+2019-03-12 18:00:07,885 - BasePage - INFO - the element /  / is clicked.
+2019-03-12 18:00:10,315 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-03-12 18:00:10,317 - BrowserEngine - INFO - 获取浏览器类型 Chrome
+2019-03-12 18:00:10,317 - BrowserEngine - INFO - 获取打开的网址 https://www.baidu.com
+2019-03-12 18:00:13,078 - BrowserEngine - INFO - 浏览器类型 Chrome
+2019-03-12 18:00:14,440 - BrowserEngine - INFO - 打开网址 https://www.baidu.com
+2019-03-12 18:00:14,849 - BrowserEngine - INFO - 窗口最大化
+2019-03-12 18:00:14,850 - BrowserEngine - INFO - Set implicitly wait 10 seconds.

@@ -1,0 +1,6 @@
+[
+  "mydict_test.py::TestDict::test_attr",
+  "mydict_test.py::TestDict::test_init",
+  "mydict_test.py::TestDict::test_key",
+  "mydict_test.py::TestDict::test_keyerror"
+]

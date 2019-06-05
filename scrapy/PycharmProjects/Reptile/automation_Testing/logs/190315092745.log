@@ -1,0 +1,7 @@
+2019-03-15 09:27:45,964 - BrowserEngine - INFO - 获取浏览器类型 Chrome
+2019-03-15 09:27:45,966 - BrowserEngine - INFO - 获取打开的网址 http://mall.wine-world.com/
+2019-03-15 09:27:48,139 - BrowserEngine - INFO - 浏览器类型 Chrome
+2019-03-15 09:27:50,969 - BrowserEngine - INFO - 打开网址 http://mall.wine-world.com/
+2019-03-15 09:27:51,383 - BrowserEngine - INFO - 窗口最大化
+2019-03-15 09:27:51,386 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2019-03-15 09:27:53,291 - MainLand - INFO - 登陆成功
