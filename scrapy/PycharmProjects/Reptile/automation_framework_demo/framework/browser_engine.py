@@ -51,7 +51,7 @@ class BrowserEngine(object):
 
     def browser_quit(self):
         logger.info("Now, Close and quit the browser.")
-
+        # self.open_browser(self.driver).quit()
         self.driver.quit()
 
 

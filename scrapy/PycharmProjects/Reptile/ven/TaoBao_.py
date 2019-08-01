@@ -44,13 +44,13 @@ wait = WebDriverWait(broswer, 15)
 def search():
     try:
         broswer.get('https://www.taobao.com/')
-        print(broswer.get_cookies())
-        broswer.delete_all_cookies()
-
-        for i in cookies:
-            if i['domain'][:1] in broswer.current_url:
-                broswer.add_cookie(i)
-        broswer.refresh()
+        # print(broswer.get_cookies())
+        # broswer.delete_all_cookies()
+        #
+        # for i in cookies:
+        #     if i['domain'][:1] in broswer.current_url:
+        #         broswer.add_cookie(i)
+        # broswer.refresh()
         print(broswer.get_cookies())
         inp = wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, '#q')))
         submit = wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, '#J_TSearchForm > div.search-button > button')))

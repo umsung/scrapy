@@ -14,7 +14,9 @@ def get_code(url):
     item = etree.tostring(nodelist).decode('utf-8')
     print(item)
     item = re.sub('<span.*?</span>', '', item, re.S)
-    items = re.findall('<d class="(.*?)"/>|(\d+)', item, re.S)
+    items = re.findall('<d class="(.*?)">|(\d+)', item, re.S)
+    #  [('', '1'), ('', '63504'), ('', '62468'), ('', '58623'), ('', '58973'), ('', '60461'), ('', '57988'), ('', '1'), ('', '58623'), ('', '57979'), ('', '57979')]
+
     phone_list = []
     print(items)
     for i in items:
@@ -99,8 +101,9 @@ def main():
 
 
 if __name__ == '__main__':
-
-    main()
+    url = 'http://www.dianping.com/shop/97404408'
+    get_code(url)
+    # main()
 
 
 # tel=[]#用于保存最后生成的结果

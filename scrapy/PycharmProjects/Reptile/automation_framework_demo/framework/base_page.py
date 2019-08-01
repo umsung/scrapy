@@ -203,36 +203,36 @@ class BasePage(object):
     #
     #
     # 输入
-    # def type(self, selector, text):
-    #     el = self.find_element(selector)
-    #     el.clear()
-    #     try:
-    #         el.send_keys(text)
-    #         logger.info('Had type \' %s \' in inputBox' % text)
-    #     except NameError as e:
-    #         logger.info('Failed type into input box with %s' % text)
-    #         self.get_windows_img()
-    #
-    # # 清除文本框
-    # def clear(self, selector):
-    #     el = self.find_element(selector)
-    #     try:
-    #         el.clear()
-    #         logger.info('clear text in input box before typing.')
-    #     except NameError as e:
-    #         logger.info('Failed to clear text in input box with %s' % e)
-    #         self.get_windows_img()
-    #
-    #
-    # # 点击元素
-    # def click(self, selector):
-    #     el = self.find_element(selector)
-    #     try:
-    #         logger.info('the element / %s / is clicked.' % el.text)
-    #         el.click()
-    #
-    #     except NameError as e:
-    #         logger.info('Failed to click the element with %s' % e)
-    #         self.get_windows_img()
+    def type(self, selector, text):
+        el = self.find_element(selector)
+        el.clear()
+        try:
+            el.send_keys(text)
+            logger.info('Had type \' %s \' in inputBox' % text)
+        except NameError as e:
+            logger.info('Failed type into input box with %s' % text)
+            self.get_windows_img()
+
+    # 清除文本框
+    def clear(self, selector):
+        el = self.find_element(selector)
+        try:
+            el.clear()
+            logger.info('clear text in input box before typing.')
+        except NameError as e:
+            logger.info('Failed to clear text in input box with %s' % e)
+            self.get_windows_img()
+
+
+    # 点击元素
+    def click(self, selector):
+        el = self.find_element(selector)
+        try:
+            logger.info('the element / %s / is clicked.' % el.text)
+            el.click()
+
+        except NameError as e:
+            logger.info('Failed to click the element with %s' % e)
+            self.get_windows_img()
     #
     #

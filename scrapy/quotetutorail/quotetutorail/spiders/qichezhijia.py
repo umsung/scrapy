@@ -17,7 +17,7 @@ class QichezhijiaSpider(scrapy.Spider):
         # test = re.search(r' layer1="text-s"></div>新车已经行驶5500公里，现给<span.*?>(.*?)</span>', response.text, re.S)
         # text = response.xpath('//div[@class="conttxt"]/div[1]').xpath('string(.)').extract()
         # bb = "".join(text)
-        # aa = re.search(r'<div class="w740">(.*?)<a href=".*?" name="shang"></a>', response.text, re.S).group(1)
+        # templetpate = re.search(r'<div class="w740">(.*?)<a href=".*?" name="shang"></a>', response.text, re.S).group(1)
         # cc = response.xpath('//div[@class="conttxt"]/div[1]//text()').extract()
         # cc = ''.join(cc)
         # print(bb)

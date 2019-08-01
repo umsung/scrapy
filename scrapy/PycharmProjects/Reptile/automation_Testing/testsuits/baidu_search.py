@@ -17,13 +17,15 @@ class BaiduSearch(unittest.TestCase):
              测试固件的setUp()的代码，主要是测试的前提准备工作
              :return:
          """
-        browser = BrowserEngine(cls)
-        cls.driver = browser.open_browser(cls)
+        cls.browser = BrowserEngine(cls)
+        cls.driver = cls.browser.open_browser()
+        # cls.driver = webdriver.Chrome()
+        # cls.driver.get('www.baidu.com')
+
 
     @classmethod
     def tearDownClass(cls):
-        pass
-
+        cls.browser.browser_quit()
 
 
         """
@@ -34,17 +36,18 @@ class BaiduSearch(unittest.TestCase):
 
 
     def test_baidu_search(self):
-        homepage = HomePage(self.driver)
-        homepage.type_search('selenium')
-        homepage.click_submit_btn()
-        time.sleep(1)
-
-        try:
-            assert 'selenium' in self.driver.title
-            print('pass')
-        except NameError as e:
-            print('error', format(e))
-            homepage.get_windows_img()
+        self.driver.find_element_by_id('kw').send_keys('ces')
+        # homepage = HomePage(self.driver)
+        # homepage.type_search('selenium')
+        # homepage.click_submit_btn()
+        # time.sleep(1)
+        #
+        # try:
+        #     assert 'selenium' in self.driver.title
+        #     print('pass')
+        # except NameError as e:
+        #     print('error', format(e))
+        #     homepage.get_windows_img()
 
 
         # self.driver.find_element_by_id('kw').send_keys('selenium')
@@ -56,11 +59,12 @@ class BaiduSearch(unittest.TestCase):
         #     print('error', format(e))
 
     def test_search2(self):
-        homepage = HomePage(self.driver)
-        homepage.type_search('python')
-        homepage.click_submit_btn()
-        time.sleep(2)
-        homepage.get_windows_img()
+        self.driver.find_element_by_id('kw').send_keys('123')
+        # homepage = HomePage(self.driver)
+        # homepage.type_search('python')
+        # homepage.click_submit_btn()
+        # time.sleep(2)
+        # homepage.get_windows_img()
 
 
 if __name__ == '__main__':

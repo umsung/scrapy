@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-
+from fake_useragent import UserAgent
 # Scrapy settings for quotetutorail project
 #
 # For simplicity, this file contains only settings considered important or
@@ -9,22 +9,23 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
+# scrapy 分布式爬虫配置， 用scrapy_redis
 # # 替换scrapy调度器
-# SCHEDULER = "scrapy_redis.scheduler.Scheduler"
+SCHEDULER = "scrapy_redis.scheduler.Scheduler"
 #
-# # 添加去重的class
-# DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
+# # 添加去重的class,指纹判断
+DUPEFILTER_CLASS = "scrapy_redis.dupefilter.RFPDupeFilter"
 #
 # # 添加pipeline
 # # 如果添加这行配置，每次爬取的数据
 # # 也都会入到redis数据库中，所以一般这里不做这个配置
-# # ITEM_PIPELINES = {
-# # 'scrapy_redis.pipelines.RedisPipeline': 300
-# # }
+# ITEM_PIPELINES = {
+# 'scrapy_redis.pipelines.RedisPipeline': 300
+# }
 #
 # # 共享的爬取队列，这里用需要redis的连接信息
 # # 这里的user:pass表示用户名和密码，如果没有则为空就可以
-# REDIS_URL = 'redis://localhost:6379'
+REDIS_URL = 'redis://localhost:6379'
 #
 # # 设置为为True则不会清空redis里的dupefilter和requests队列
 # # 这样设置后指纹和请求队列则会一直保存在redis数据库中，默认为False，一般不进行设置
@@ -35,9 +36,18 @@
 # # 这样每次重启爬虫都会清空指纹和请求队列,一般设置为False
 # SCHEDULER_FLUSH_ON_START=True
 
+# ----------------------------------------------------------
 
+# 使用scrapy_mongodb， 无需链接和配置mongodb数据库，可直接把数据存入mongodb数据库
+MONGODB_URI = 'mongodb://localhost:27017'
+MONGODB_DATABASE = 'spider_world'
+MONGODB_COLLECTION = 'dytt8'
 
+# -------------------------------------------------------------
 
+# 代理池和cookies链接
+PROXY_POOL_URL = 'http://localhost:5000/GET'
+COOKIES_POOL_URL = 'http://localhost:5000/weibo/random'
 
 BOT_NAME = 'quotetutorail'
 
@@ -91,18 +101,18 @@ DEFAULT_REQUEST_HEADERS = {
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 DOWNLOADER_MIDDLEWARES = {
+   'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware': None,
    # 'quotetutorail.middlewares.QuotetutorailDownloaderMiddleware': None,
    # 'quotetutorail.middlewares.PayLoadRequestMiddleware': None,
-   # 'quotetutorail.middlewares.RandomUserAgentMiddleware': 500,
+   'quotetutorail.middlewares.RandomUserAgentMiddleware': 500,
    # 'quotetutorail.middlewares.ProxyMiddleWare': 543,
    # 'quotetutorail.middlewares.JSPageMiddleware': 555,
 
 }
 
-# 随机更换userAgent
-RANDOM_UA_TYPE = 'random'
 
-# 随机更换如下ip
+
+# 随机更换如下ip,ip池
 IPPOOL=[
         {"ipaddr": "111.225.8.231:9999"},
         {"ipaddr": "114.95.226.232:8118"},
@@ -111,6 +121,16 @@ IPPOOL=[
         {"ipaddr": "219.159.38.200:56210"},
         {"ipaddr": "163.142.67.46:9000"},
         {"ipaddr": "27.46.21.20:888"}
+]
+
+
+# 随机更换userAgent
+RANDOM_UA_TYPE = 'random'
+
+# 设置用户代理池
+UPPOOL = ["Mozilla/5.0 (Windows NT 10.0; WOW64; rv:52.0) Gecko/20100101 Firefox/52.0",
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.115 Safari/537.36",
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.79 Safari/537.36 Edge/14.14393",
 ]
 
 
@@ -129,12 +149,12 @@ ITEM_PIPELINES = {
    # 'quotetutorail.pipelines.ImgSavePipeline': 400,
    # 'quotetutorail.pipelines.JsonWriterPipeline': 500,
    #  'quotetutorail.pipelines.MysqlPipeline': 600,
-   #  'quotetutorail.pipelines.MongoPipeline': 700,
-   'quotetutorail.pipelines.TestPanadsPipline': 800,
+    'quotetutorail.pipelines.MongoPipeline': 700,
+   # 'quotetutorail.pipelines.TestPanadsPipline': 800,
    # 'quotetutorail.pipelines.ExcelPipline': 900,
    # 'quotetutorail.pipelines.EntePipline': 900,
    # 'scrapy_redis.pipelines.RedisPipeline': 300
-
+   #  'scrapy_mongodb.MongoDBPipeline': 300   # 数据库存储 这里介绍一下scrapy-mongodb，也是超级好用，省去了自己链接和配置的麻烦，没有下载的童鞋，可以pip安装下，然后写入mongodb配置即可
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

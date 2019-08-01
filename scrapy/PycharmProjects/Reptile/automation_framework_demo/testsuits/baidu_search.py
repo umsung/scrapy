@@ -21,7 +21,7 @@ class BaiduSearch(unittest.TestCase):
 
     @classmethod
     def tearDownClass(cls):
-        pass
+        cls.driver
 
 
 
@@ -33,17 +33,18 @@ class BaiduSearch(unittest.TestCase):
 
 
     def test_baidu_search(self):
-        homepage = HomePage(self.driver)
-        homepage.type_search('selenium')
-        homepage.click_submit_btn()
-        time.sleep(1)
-
-        try:
-            assert 'selenium' in self.driver.title
-            print('pass')
-        except NameError as e:
-            print('error', format(e))
-            homepage.get_windows_img()
+        self.driver.get('https://www.baidu.com/')
+        # homepage = HomePage(self.driver)
+        # homepage.type_search('selenium')
+        # homepage.click_submit_btn()
+        # time.sleep(1)
+        #
+        # try:
+        #     assert 'selenium' in self.driver.title
+        #     print('pass')
+        # except NameError as e:
+        #     print('error', format(e))
+        #     homepage.get_windows_img()
 
 
         # self.driver.find_element_by_id('kw').send_keys('selenium')
@@ -55,11 +56,13 @@ class BaiduSearch(unittest.TestCase):
         #     print('error', format(e))
 
     def test_search2(self):
-        homepage = HomePage(self.driver)
-        homepage.type_search('python')
-        homepage.click_submit_btn()
-        time.sleep(2)
-        homepage.get_windows_img()
+        self.driver.find_element_by_id('kw').send_keys('aaa')
+        # self.driver.get('https://www.baidu.com/')
+        # homepage = HomePage(self.driver)
+        # homepage.type_search('python')
+        # homepage.click_submit_btn()
+        # time.sleep(2)
+        # homepage.get_windows_img()
 
 
 if __name__ == '__main__':

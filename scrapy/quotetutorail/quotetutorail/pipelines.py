@@ -7,6 +7,8 @@
 import csv
 import json
 import os
+import re
+import time
 from hashlib import md5
 import numpy as np
 import pymongo
@@ -16,12 +18,10 @@ from scrapy.exceptions import DropItem
 import pandas as pd
 import redis
 from openpyxl import Workbook
-
 import xlwt
 import numpy as np
+from quotetutorail.items import WeiboItem
 
-redis_db = redis.Redis(host='localhost', port=6379, db=1)  # 连接本地redis，db数据库默认连接到0号库，写的是索引值
-redis_data_dict = 'test'   # redis字典名称, 相当于数据表名
 
 class QuotetPipeline(object):
     '''
@@ -191,109 +191,10 @@ class EntPipline(object):
             if spider.keyword == '动漫设计股份有限公司':
                 bool = data['名称'].str.contains('动漫.*?公司')
                 filter_data = data[bool]
-            if spider.keyword == '互动娱乐有限公司':
-                bool = data['名称'].str.contains('娱乐.*?公司')
-                filter_data = data[bool]
-            if spider.keyword == '国际展览有限公司':
-                bool = data['名称'].str.contains('展览.*?公司')
-                filter_data = data[bool]
-            if spider.keyword == '网络股份有限公司':
-                bool = data['名称'].str.contains('网络.*?股份.*?公司')
-                filter_data = data[bool]
-            if spider.keyword == "科技且孵化器有限公司":
-                bool = data['名称'].str.contains('科技.*?孵化器.*?公司')
-                filter_data = data[bool]
-            if spider.keyword == '信息科技有限公司':
-                bool = data['名称'].str.contains('信息.*?公司')
-                filter_data = data[bool]
-            if spider.keyword == '影视科技有限公司':
-                bool = data['名称'].str.contains('影视.*?公司')
-                filter_data = data[bool]
-            if spider.keyword == '科技有限公司':
-                bool = data['名称'].str.contains('科技.*?公司')
-                filter_data = data[bool]
-            if spider.keyword == '广告有限公司':
-                bool = data['名称'].str.contains('广告.*?公司')
-                filter_data = data[bool]
-            if spider.keyword == "网络科技有限公司":
-                bool = data['名称'].str.contains('网络.*?科技.*?公司')
-                filter_data = data[bool]
-            if spider.keyword == '游戏科技股份有限公司':
-                bool = data['名称'].str.contains('游戏.*?公司')
-                filter_data = data[bool]
-            if spider.keyword == '新能源科技有限公司':
-                bool = data['名称'].str.contains('新能源.*?公司')
-                filter_data = data[bool]
-            if spider.keyword == '文化传播有限公司':
-                bool = data['名称'].str.contains('文化传播.*?公司')
-                filter_data = data[bool]
-            if spider.keyword == '动画制作有限公司':
-                bool = data['名称'].str.contains('动画.*?公司')
-                filter_data = data[bool]
-            if spider.keyword == "教育科技有限公司":
-                bool = data['名称'].str.contains('教育.*?公司')
-                filter_data = data[bool]
-            if spider.keyword == '创意科技股份有限公司':
-                bool = data['名称'].str.contains('创意.*?科技.*?公司')
-                filter_data = data[bool]
-            if spider.keyword == '文化传媒有限公司':
-                bool = data['名称'].str.contains('文化传媒.*?公司')
-                filter_data = data[bool]
-            if spider.keyword == '电子商务有限公司':
-                bool = data['名称'].str.contains('电子商务.*?公司')
-                filter_data = data[bool]
-            if spider.keyword == "管理有限责任公司":
-                bool = data['名称'].str.contains('管理.*?公司')
-                filter_data = data[bool]
-
-            #园区关键词
-            if spider.keyword == '小镇产业园':
-                bool = data['名称'].str.contains('小镇.*?产业园')
-                filter_data = data[bool]
-            if spider.keyword == '国际传媒产业园':
-                bool = data['名称'].str.contains('国际传媒.*?产业园')
-                filter_data = data[bool]
-            if spider.keyword == '青年文创园':
-                bool = data['名称'].str.contains('青年.*?文创园')
-                filter_data = data[bool]
-            if spider.keyword == '文化创意产业园区':
-                bool = data['名称'].str.contains('文化创意.*?产业园')
-                filter_data = data[bool]
-            if spider.keyword == '动漫游戏产业园区':
-                bool = data['名称'].str.contains('动漫.*?游戏.*?产业园')
-                filter_data = data[bool]
-            if spider.keyword == '工业园区':
-                bool = data['名称'].str.contains('工业.*?园区')
-                filter_data = data[bool]
-            if spider.keyword == '科技产业园区':
-                bool = data['名称'].str.contains('科教.*?产业园区')
-                filter_data = data[bool]
-            if spider.keyword == '游戏动漫产业园':
-                bool = data['名称'].str.contains('游戏.*?动漫.*?产业园')
-                filter_data = data[bool]
-
-            #协会关键词
-            if spider.keyword == '新媒体协会':
-                bool = data['名称'].str.contains('新媒体.*?协会')
-                filter_data = data[bool]
-            if spider.keyword == '摄影家协会':
-                bool = data['名称'].str.contains('摄影家.*?协会')
-                filter_data = data[bool]
-            if spider.keyword == '动画协会':
-                bool = data['名称'].str.contains('动画.*?协会')
-                filter_data = data[bool]
-            if spider.keyword == '动漫产业协会':
-                bool = data['名称'].str.contains('动漫.*?协会')
-                filter_data = data[bool]
-            if spider.keyword == '游戏产业协会':
-                bool = data['名称'].str.contains('游戏.*?协会')
-                filter_data = data[bool]
-
             # 将去除重复行的数据输出到excel表中
             filter_data.to_excel("F:\\"+spider.city+'-'+spider.keyword+".xlsx",index = False)
 
             return item
-
 
 
 # 保存成json格式
@@ -307,7 +208,31 @@ class EntPipline(object):
 #         self.file.write(line)
 #         return item
 
+class WeiboPipeline(object):
+    # time.strftime('%Y{y}%m{m}%d{d} %H{h}%M{f}%S{s}').format(y='年', m='月', d='日', h='时', f='分', s='秒')
+    def parse_time(self, datetime):
+        if re.match('\d+月\d+日', datetime):
+            datetime = time.strftime('%Y年', time.localtime()) + datetime
+        if re.match('\d+分钟前', datetime):
+            minute = re.match('(\d+)', datetime).group(1)
+            datetime = time.strftime('%Y年%m月%d日 %H:%M', time.localtime(time.time() - float(minute) * 60))
+        if re.match('今天.*', datetime):
+            datetime = re.match('今天(.*)', datetime).group(1).strip()
+            datetime = time.strftime('%Y年%m月%d日', time.localtime()) + ' ' + datetime
+        return datetime
 
+    def process_item(self, item, spider):
+        if isinstance(item, WeiboItem):
+            if item.get('content'):
+                item['content'] = item['content'].lstrip(':').strip()
+            if item.get('posted_at'):
+                item['posted_at'] = item['posted_at'].strip()
+                item['posted_at'] = self.parse_time(item.get('posted_at'))
+        return item
+
+
+redis_db = redis.Redis(host='localhost', port=6379, db=1)  # 连接本地redis，db数据库默认连接到0号库，写的是索引值
+redis_data_dict = 'test'   # redis字典名称, 相当于数据表名
 
 #插入到Mysql数据库
 class  MysqlPipeline(object):
@@ -330,7 +255,7 @@ class  MysqlPipeline(object):
         # print(redis_db)
         if redis_db.hlen(redis_data_dict) == 0:  # 判断redis数据库中的key，若不存在就读取mysql数据并临时保存在redis中
             sql = 'select img_href from dTable'  # 查询表中的现有数据
-            df = pandas.read_sql(sql, self.conn)  # 读取mysql中的数据
+            df = pd.read_sql(sql, self.conn)  # 读取mysql中的数据
             print(df)
             for url in df['img_href'].get_values():
                 redis_db.hset(redis_data_dict, url, 0)  # 把每个url写入field中，value值随便设，我设置的0  key field value 三者的关系
@@ -351,8 +276,7 @@ class  MysqlPipeline(object):
     def do_insert(self, item):
 
         #插入数据
-        insert_sql = '''insert into dTable(title, img_href, url) values(%s, %s, %s)
-        '''
+        insert_sql = '''insert into dTable(title, img_href, url) values(%s, %s, %s)'''
 
         self.cursor.execute(insert_sql, (item['title'], item['img_href'], item['url']))
         self.conn.commit()
@@ -362,29 +286,29 @@ class  MysqlPipeline(object):
         self.conn.close()
 
 
-# class MongoPipeline(object):
-#     collection_name = 'scrapy_items'
-#     def __init__(self, mongo_uri, mongo_db):
-#         self.mongo_uri = mongo_uri
-#         self.mongo_db = mongo_db
-#
-#     @classmethod
-#     def from_crawler(cls, crawler):
-#         return cls(
-#             mongo_uri=crawler.settings.get('MONGO_URI'),
-#             mongo_db=crawler.settings.get('MONGO_DATABASE', 'items')
-#         )
-#
-#     def open_spider(self, spider):
-#         # 用MongoClient指定连接数据库的地址self.mongo_uri,创建MongoClient对象client
-#         self.client = pymongo.MongoClient(self.mongo_uri)
-#         # 在数据库url中指定要创建的数据库self.mongo_db
-#         self.db = self.client[self.mongo_db]
-#
-#     def close_spider(self, spider):
-#         self.client.close()
-#
-#     def process_item(self, item, spider):
-#         self.db[self.collection_name].insert(dict(item))
-#         return item
-#
+class MongoPipeline(object):
+    collection_name = 'scrapy_items'
+    def __init__(self, mongo_uri, mongo_db):
+        self.mongo_uri = mongo_uri
+        self.mongo_db = mongo_db
+
+    @classmethod
+    def from_crawler(cls, crawler):
+        return cls(
+            mongo_uri=crawler.settings.get('MONGO_URI'),
+            mongo_db=crawler.settings.get('MONGO_DATABASE', 'items')
+        )
+
+    def open_spider(self, spider):
+        # 用MongoClient指定连接数据库的地址self.mongo_uri,创建MongoClient对象client
+        self.client = pymongo.MongoClient(self.mongo_uri)
+        # 在数据库url中指定要创建的数据库self.mongo_db
+        self.db = self.client[self.mongo_db]
+
+    def close_spider(self, spider):
+        self.client.close()
+
+    def process_item(self, item, spider):
+        self.db[self.collection_name].insert(dict(item))
+        return item
+

@@ -6,7 +6,6 @@ import scrapy
 
 from quotetutorail.items import ZhiHuItem
 
-
 class ZhihuSpider(scrapy.Spider):
     name = 'zhihu'
     allowed_domains = ['www.zhihu.com']

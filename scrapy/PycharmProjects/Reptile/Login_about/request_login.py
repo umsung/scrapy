@@ -45,7 +45,6 @@ def login(baseurl, token, s):
         # 'Cookie': '_ga = GA1.2.1884163979.1558064145;Hm_lvt_020fbaad6104bcddd1db12d6b78812f6 = 1558064145, 1558515373, 1558666318, 1558927123;_gid = GA1.2.1932643421.1558927123;XSRF - TOKEN = eyJpdiI6IjhTUURhRm5odHlUZjFMenlKZzdRWEE9PSIsInZhbHVlIjoiNkVyNThDaDRDVG80cVwvREFTZjFoQ3NWUFwvSHRqODM3TWg5QkVOUFZjcXZ5eGZIbFVGNVZXU1p1YzY3UkkwQ1dTIiwibWFjIjoiMmIyODFjNTY2YTc2NDE4YjlhODNhZWM4ZTA0ODA5Nzg2OGZmZDU5NWYyOTU1Y2YwMTU0ODNjZTVjOTgxMzE1MyJ9;glidedsky_session = eyJpdiI6IlNsVHFCd2FxM0FWN0ZKK0h6cGx5WlE9PSIsInZhbHVlIjoiWVZlWXFGQm1JZ2k3NWY4cVNwNFJJK2lcL01LK1piV3JKNjg3VnViOFRVSThkU1F2WncwOUdhWUZzSWdmQXZld0EiLCJtYWMiOiI2MjhmNDYyN2IzMGFjZDhjNDgyMTMxMWI1YWZjY2YwMmUzMDgyNDY2NDI1NWVlZTBmN2ZhYzM1YjQyNzU4YWM2In0 % 3D;Hm_lpvt_020fbaad6104bcddd1db12d6b78812f6 = 1558944558;_gat_gtag_UA_75859356_3 = 1'
 
     # 'Set - Cookie': 'XSRF - TOKEN = eyJpdiI6InRqam9cL1ZjcFJOMHpVWmMyemhkQm9BPT0iLCJ2YWx1ZSI6InFrU2QxeEtyS1NYV3N5SFgrbVZubVU1RlF6TmpsMDc5ZkNUbTBReFVwSjlXZ3BzS2VTd1wvUDlUam40Y09pc2lEIiwibWFjIjoiYzA0Yjg2ZDdhMWIwZDgwZjg3ZTE5ZGQ1YzdjMjk2MzRmYTEzNzUwODRmMzYwMTYyZGJhOGFlZjQwYjVkN2IxZCJ9;expires = Mon, 27 - May - 2019 08: 58:03 GMT; Max - Age = 7200;path ='
-
     }
 
     # s = requests.session()
@@ -54,6 +53,8 @@ def login(baseurl, token, s):
     print(resp2.headers)
     cookies2 = resp2.cookies.get_dict()
     print(cookies2)
+    print(resp2.text)
+
 
     resp3 = s.get(resp2.headers['Location'], headers=headers,  cookies=cookies2)
     print(resp3.text)

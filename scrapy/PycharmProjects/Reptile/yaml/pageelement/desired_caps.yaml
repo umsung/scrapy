@@ -1,0 +1,19 @@
+- desc: 设备名称_雷电,appium启动服务端口号_4723
+  prot: 4730
+  desired_caps:
+    platformName: Android
+    deviceName: emulator-5554
+    appPackage: com.taobao.taobao
+    noReset: !!bool True
+    uuid: emulator-5554
+    appActivity: com.taobao.taobao.welcome.Welcome
+
+- desc: 设备名称_夜神,appium启动服务端口号_4723
+  port: 4740
+  desired_caps:
+    platforName: Android
+    deviceName: 127.0.0.1:62001
+    appPackage: com.taobao.taobao
+    appActivity: com.taobao.taobao.welcome.Welcome
+    noReset: !!bool True
+    uuid: 127.0.0.1:62001

@@ -15,7 +15,7 @@ class BrowserEngine(object):
     def __init__(self, driver):
         self.driver = driver
 
-    def open_browser(self, driver):
+    def open_browser(self):
         config = configparser.ConfigParser()
         config_path = os.path.dirname(os.path.abspath('.')) + '/config/config.ini'
         # print(config_path)
@@ -28,26 +28,26 @@ class BrowserEngine(object):
         logger.info('获取打开的网址 %s' % url)
 
         if browser == 'Chrome':
-            driver = webdriver.Chrome()
+            self.driver = webdriver.Chrome()
             logger.info('浏览器类型 %s' % browser)
 
         elif browser == 'Firefox':
-            driver = webdriver.Firefox(self.firefox_path)
+            self.driver = webdriver.Firefox(self.firefox_path)
             logger.info('浏览器类型 %s' % browser)
 
         elif browser == 'IE':
-            driver = webdriver.Ie()
+            self.driver = webdriver.Ie()
             logger.info('浏览器类型 %s' % browser)
 
-        driver.get(url)
+        self.driver.get(url)
         logger.info('打开网址 %s' % url)
 
-        driver.maximize_window()
+        self.driver.maximize_window()
         logger.info('窗口最大化')
 
-        driver.implicitly_wait(10)
+        self.driver.implicitly_wait(10)
         logger.info('Set implicitly wait 10 seconds.')
-        return driver
+        return self.driver
 
     def browser_quit(self):
         logger.info("Now, Close and quit the browser.")

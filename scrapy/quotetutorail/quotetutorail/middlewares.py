@@ -13,11 +13,138 @@ from cmath import e
 from fake_useragent import UserAgent
 import requests
 from scrapy import signals
+from scrapy.exceptions import IgnoreRequest
 from scrapy.http import HtmlResponse
-from quotetutorail.settings import IPPOOL
+from quotetutorail.quotetutorail.settings import IPPOOL
 from selenium import webdriver
 from scrapy.http import HtmlResponse
 
+# Downloader Middleware处理的过程主要在调度器发送requests请求的时候以及网页将response结果返回给spiders的时候
+# 代理cookies池 中间件, 用于登陆，登陆的账号操作久了会被封，账号被封，换ip也没用
+class CookiesMiddleWare(object):
+    def __init__(self, cookies_pool_url):
+        self.logger = logging.getLogger(__name__)
+        self.cookies_pool_url = cookies_pool_url
+
+    # 随机获取cookies_pool_url中的cookies，cookies_pool_url是api接口，cookies池
+    def _get_random_cookies(self):
+        try:
+            response = requests.get(self.cookies_pool_url)
+            if response.status_code == 200:
+                return json.loads(response.text)
+        except ConnectionError:
+            return None
+
+    # 此方法是修改requests请求
+    def process_request(self, request, spider):
+        cookies = self._get_random_cookies()
+        if cookies:
+            request.cookies = cookies
+            self.logger.debug('Using Cookies ' + json.dumps(cookies))
+        else:
+            self.logger.debug('No Valid Cookies')
+
+    # 类方法获取setting中的配置信息
+    @classmethod
+    def from_crawler(cls, crawler):
+        return cls(
+            cookies_pool_url=crawler.settings.get('COOKIES_POOL_URL')
+        )
+
+    # 此方法是处理response响应
+    def process_response(self, request, response, spider):
+        # 携带cookies请求，可能会出现cookies失效的情况。访问失败会出现两种情况：
+        # 1、重定向302到验证码页面。 2、直接封锁账号，404
+        # 拦截重定向，在setting中配置allow_redirect=false
+
+        if response.status in [300, 301, 302, 303]:
+            try:
+                redirect_url = response.headers['location']
+                if 'login.weibo' in redirect_url or 'login.sina' in redirect_url:  # Cookie失效
+                    self.logger.warning('Updating Cookies')
+                elif 'weibo.cn/security' in redirect_url:
+                    self.logger.warning('Now Cookies' + json.dumps(request.cookies))
+                    self.logger.warning('One Account is locked!')
+
+                # 出现封锁或者重定向，说明请求失败，需要重新获取cookies更换
+                request.cookies = self._get_random_cookies()
+                self.logger.debug('Using Cookies' + json.dumps(request.cookies))
+                # 返回值request： 停止后续的response中间件，将request重新放入调度器的队列重新请求
+                return request
+            except Exception:
+                raise IgnoreRequest
+        elif response.status in [414]:
+            return request
+        else:
+            # 如果没有出现封锁或重定向，直接将response向下传递给后续的中间件
+            return response
+
+
+# 代理ip池 中间件
+class ProxyMiddleWare(object):
+    """docstring for ProxyMiddleWare"""
+    def __init__(self, proxy_pool_url):
+        self.PROXY_POOL_URL = proxy_pool_url
+
+    def process_request(self, request, spider):
+        '''对request对象加上proxy'''
+        proxy = self.get_random_proxy()
+        print("this is request ip:" + proxy)
+        request.meta['proxy'] = 'http://' + proxy
+
+    def process_response(self, request, response, spider):
+        '''对返回的response处理'''
+        # 如果返回的response状态不是200，重新生成当前request对象
+        if response.status != 200:
+            proxy = self.get_random_proxy()
+            print("this is response ip:" + proxy)
+            # 对当前requests加上代理
+            request.meta['proxy'] = 'http://' + proxy
+            return request
+        return response
+
+    def get_random_proxy(self):
+        '''随机从文件中读取proxy'''
+        while 1:
+            with open('proxies.txt', 'r') as f:
+                proxies = f.readlines()
+            if proxies:
+                break
+            else:
+                time.sleep(1)
+        proxy = random.choice(proxies).strip()
+        return proxy
+
+    @classmethod
+    def from_crawler(cls, crawler):
+        return cls(
+            proxy_pool_url=crawler.settings.get('PROXY_POOL_URL')
+        )
+
+    def _get_random_proxt(self):
+        try:
+            resp = requests.get(self.PROXY_POOL_URL)    # 通过ip代理池返回ip
+            if resp.status_code == 200:
+                return resp.text
+        except ConnectionError:
+            return None
+
+
+class RandomUserAgentMiddleware(object):
+    def __init__(self, c):
+        super(RandomUserAgentMiddleware, self).__init__()
+        self.ua = UserAgent()
+        self.random_ua_type = c.settings.get('RANDOM_UA_TYPE', 'random')  # settings中有'RANDOM_UA_TYPE'就去这个值，没有就取random
+
+    @classmethod
+    def from_crawler(cls, crawler):
+        return cls(crawler)
+
+    def get_ua(self):
+        return getattr(self.ua, self.random_ua_type)
+
+    def process_request(self, request, spider):
+        request.headers.setdefault('User-Agent', self.get_ua())
 
 
 class QuotetutorailSpiderMiddleware(object):
@@ -195,41 +322,11 @@ class QuotetutorailDownloaderMiddleware(object):
 #     #     # request.meta['proxy'] = 'https://用户名:密码@114.212.12.4:3128'
 #     #     # 随即获取一个代理
 #     #     this_ip = random.choice(IPPOOL)
-#     #     request.meta['proxy'] = 'HTTP://' + this_ip
+#     #     request.meta['proxy'] = 'HTTP://' + this_ip['ipaddr']
 #     #     return request
 #
-#
-# class ProxyMiddleWare(object):
-#     """docstring for ProxyMiddleWare"""
-#
-#     def process_request(self, request, spider):
-#         '''对request对象加上proxy'''
-#         proxy = self.get_random_proxy()
-#         print("this is request ip:" + proxy)
-#         request.meta['proxy'] = proxy
-#
-#     def process_response(self, request, response, spider):
-#         '''对返回的response处理'''
-#         # 如果返回的response状态不是200，重新生成当前request对象
-#         if response.status != 200:
-#             proxy = self.get_random_proxy()
-#             print("this is response ip:" + proxy)
-#             # 对当前reque加上代理
-#             request.meta['proxy'] = proxy
-#             return request
-#         return response
-#
-#     def get_random_proxy(self):
-#         '''随机从文件中读取proxy'''
-#         while 1:
-#             with open('proxies.txt', 'r') as f:
-#                 proxies = f.readlines()
-#             if proxies:
-#                 break
-#             else:
-#                 time.sleep(1)
-#         proxy = random.choice(proxies).strip()
-#         return proxy
+
+
 #
 #
 # class JSPageMiddleware(object):
@@ -247,3 +344,5 @@ class QuotetutorailDownloaderMiddleware(object):
 #             # browser.quit()
 #             return HtmlResponse(url=self.browser.current_url, body=self.browser.page_source,
 #                                 encoding="utf-8", request=request)
+
+

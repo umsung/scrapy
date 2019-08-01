@@ -92,3 +92,23 @@ class TanChePostItem(scrapy.Item):
     installmentStr = scrapy.Field()
     prepaidAmount = scrapy.Field()
 
+class WeiboItem(scrapy.Item):
+    url = scrapy.Field()
+    content = scrapy.Field()
+    id = scrapy.Field()
+    comment_count = scrapy.Field()
+    forward_count = scrapy.Field()
+    like_count = scrapy.Field()
+    posted_at = scrapy.Field()
+    user = scrapy.Field()
+
+
+class WwwDytt8NetItem(scrapy.Item):
+    # define the fields for your item here like:
+    # name = scrapy.Field()
+    title = scrapy.Field()
+    publish_time = scrapy.Field()
+    images = scrapy.Field()
+    download_links = scrapy.Field()
+    contents = scrapy.Field()
+    pass

@@ -16,9 +16,9 @@ class RenrencheSpider(scrapy.Spider):
         """
         tff_ = re.search(r"url\('(https:.*\.ttf)'\)", response.text).group(1)
         print(tff_)
-        with open('aa.tff', 'wb') as f:
+        with open('templetpate.tff', 'wb') as f:
             f.write(requests.get(tff_).content)
-        font_dict = font_name('aa.tff')
+        font_dict = font_name('templetpate.tff')
 
         node_list = response.xpath('//*[@id="search_list_wrapper"]/div/div/div[1]/ul/li[contains(./div/text(),"免费咨询")]')
         for li in node_list:
