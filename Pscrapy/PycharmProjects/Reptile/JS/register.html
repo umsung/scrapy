@@ -1,0 +1,140 @@
+<form method="post" action="/blog/register/" onsubmit="return false;">
+    <label>帐号：</label><br>
+    <input id="uname" name="uname">
+    <span class="name_error" style="color: red;"></span>
+    <br>
+    <label>密码：</label><br>
+    <input id="upwd" name="upwd">
+    <span class="upwd_error" style="color: red;"></span>
+    <br>
+    <label>重复输入密码：</label><br>
+    <input id="spwd" name="spwd">
+    <span class="spwd_error" style="color: red;"></span>
+    <br>
+    <input type="checkbox" id="protocol" checked="checked"><span>同意用户协议</span>
+    <span class="protocol_error" style="color: red;" hidden>请同意用户协议</span>
+    <br>
+    <input type="submit" value="注册">
+</form>
+
+<script>
+    $(document).ready(function(){
+        error_check_password = false; 
+        error_check_username= false;
+        error_check_checked= false;
+        error_check_upwd= false;
+
+        $('#uname').blur(function(){
+            return check_uname();
+        })
+
+        $('#upwd').blur(function(){
+            return check_upwd();
+        })
+
+        $('#spwd').blur(function(){
+            return check_spwd();
+        })
+
+        $('#protocol').click(function(){
+            return check_protocol();
+        })
+
+        function check_protocol(){
+            var 
+                protocol = $('#protocol')
+            if(!protocol.prop(checked)){
+                $('#protocol').next.show();
+                error_check_checked = false;
+            }
+            else{
+                $('#protocol').next.hide();
+                error_check_checked = true;
+            }
+        }
+
+
+        function check_spwd(){
+            var 
+                spwd = $('#spwd').val();
+                upwd = $('#upwd').val();
+            if (spwd !== upwd){
+                $('#spwd').next.html('密码不一致');
+                $('#spwd').next.show();
+                error_check_password = false;
+            }
+            else{
+                $('#spwd').next.hide();
+                error_check_password = true;
+            }
+        }
+
+        function check_upwd(){
+            var 
+                upwd = $('#upwd').val();
+
+                re = /^[a-zA-z0-9]{8,16}$/;
+            if (re.test(upwd && isNaN(upwd))){
+                $('#upwd').next.hide();
+                error_check_upwd = true;
+            }
+            else{
+                $('#upwd').next.html('密码不正确')
+                $('#upwd').next.show();
+                error_check_upwd = false;
+            }
+        }
+
+        function check_uname(){
+            var 
+                username = $('#uname').val();
+                len = username.length();
+                console.log(username);
+                console.log(isNaN(username));
+            
+            if (isNaN(username) && (len>6 && len<18)){
+                $('uname').next().hide();
+                //post方法发送帐号给服务器，进行比对，
+                //第一个参数是url.第二个参数是发给服务器的post参数，第三个data是回调函数接收服务器返回的数据
+                $.post('/blog/check_name/',{'uname':username},function(data){
+                    if(data.success === 0){
+                        $('uname').next.html('用户已存在');
+                        $('uname').next.show();
+                        error_check_username = false;
+                    }
+                    else{
+                        $('uname').next.hide();
+                        error_check_username = true;
+                    }
+                })
+
+            }
+            else{
+                $('uname').next.html('用户名不正确');
+                $('uname').next.show();
+            }
+        }
+
+        $(":submit").click(function(){
+            
+            check_uname();
+            check_upwd();
+            check_spwd();
+            check_protocol();
+
+            if(error_check_username && error_check_upwd && error_check_password && error_check_checked){
+                var username = $('#uname').val();
+                var password = $('#upwd').val();
+                $.post('/blog/register/',{'uname':username,'password':password},function(data){
+                    window.href = 'http://www.baidu.com';
+                    //$('html').html(data);
+                })
+            }
+            else{
+                return false;
+            }
+
+        })
+    })
+    
+</script>

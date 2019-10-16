@@ -1,0 +1,29 @@
+2019-03-13 09:45:39,830 - BrowserEngine - INFO - 获取浏览器类型 Chrome
+2019-03-13 09:45:39,831 - BrowserEngine - INFO - 获取打开的网址 https://www.baidu.com
+2019-03-13 09:45:43,444 - BrowserEngine - INFO - 浏览器类型 Chrome
+2019-03-13 09:45:45,204 - BrowserEngine - INFO - 打开网址 https://www.baidu.com
+2019-03-13 09:45:45,585 - BrowserEngine - INFO - 窗口最大化
+2019-03-13 09:45:45,587 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2019-03-13 09:45:45,641 - BasePage - INFO - Had find the element '  ' successful by id via value: kw 
+2019-03-13 09:45:45,841 - BasePage - INFO - Had type ' selenium ' in inputBox
+2019-03-13 09:45:45,903 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="su"] 
+2019-03-13 09:45:45,916 - BasePage - INFO - the element /  / is clicked.
+2019-03-13 09:45:47,007 - BasePage - INFO - Had find the element '  ' successful by id via value: kw 
+2019-03-13 09:45:47,092 - BasePage - INFO - Had type ' python ' in inputBox
+2019-03-13 09:45:47,114 - BasePage - INFO - Had find the element '  ' successful by xpath via value: //*[@id="su"] 
+2019-03-13 09:45:47,124 - BasePage - INFO - the element /  / is clicked.
+2019-03-13 09:45:49,522 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-03-13 09:45:49,524 - BrowserEngine - INFO - 获取浏览器类型 Chrome
+2019-03-13 09:45:49,524 - BrowserEngine - INFO - 获取打开的网址 https://www.baidu.com
+2019-03-13 09:45:53,902 - BrowserEngine - INFO - 浏览器类型 Chrome
+2019-03-13 09:45:55,313 - BrowserEngine - INFO - 打开网址 https://www.baidu.com
+2019-03-13 09:45:55,698 - BrowserEngine - INFO - 窗口最大化
+2019-03-13 09:45:55,699 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2019-03-13 09:45:55,706 - BasePage - INFO - Current page title is 百度一下，你就知道
+2019-03-13 09:45:55,713 - BrowserEngine - INFO - 获取浏览器类型 Chrome
+2019-03-13 09:45:55,713 - BrowserEngine - INFO - 获取打开的网址 https://www.baidu.com
+2019-03-13 09:46:00,281 - BrowserEngine - INFO - 浏览器类型 Chrome
+2019-03-13 09:46:01,699 - BrowserEngine - INFO - 打开网址 https://www.baidu.com
+2019-03-13 09:46:02,097 - BrowserEngine - INFO - 窗口最大化
+2019-03-13 09:46:02,098 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2019-03-13 09:46:02,104 - BasePage - INFO - Current page title is 百度一下，你就知道

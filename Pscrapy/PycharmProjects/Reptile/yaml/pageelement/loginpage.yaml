@@ -1,0 +1,47 @@
+---
+LoginPage:
+  dec: 登录页
+  locators:
+      -
+        name: 微信登录
+        type: id
+        value: com.sankuai.meituan:id/passport_button_wechat
+      -
+         name: 手机号登录
+         type: id
+         value: com.sankuai.meituan:id/passport_button_meituan
+
+      -
+         name: 其它登录
+         type: id
+         value: com.sankuai.meituan:id/passport_button_other
+
+      -
+         name: QQ
+         type: xpath
+         value: //*[@text='QQ']
+
+      -
+         name: 微博
+         type: xpath
+         value: //*[@text='微博']
+
+      -
+         name: 账号密码
+         type: xpath
+         value: //*[@text='账号密码']
+
+      -
+         name: 输入账号
+         type: id
+         value: com.sankuai.meituan:id/edit_account
+
+      -
+         name: 输入密码
+         type: id
+         value: com.sankuai.meituan:id/edit_password
+
+      -
+         name: 登录按钮
+         type: id
+         value: com.sankuai.meituan:id/login_button

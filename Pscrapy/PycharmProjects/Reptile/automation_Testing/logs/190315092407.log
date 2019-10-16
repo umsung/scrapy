@@ -1,0 +1,12 @@
+2019-03-15 09:24:07,756 - BrowserEngine - INFO - 获取浏览器类型 Chrome
+2019-03-15 09:24:07,758 - BrowserEngine - INFO - 获取打开的网址 http://mall.wine-world.com/
+2019-03-15 09:24:11,105 - BrowserEngine - INFO - 浏览器类型 Chrome
+2019-03-15 09:24:15,595 - BrowserEngine - INFO - 打开网址 http://mall.wine-world.com/
+2019-03-15 09:24:16,008 - BrowserEngine - INFO - 窗口最大化
+2019-03-15 09:24:16,012 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2019-03-15 09:24:20,142 - MainLand - INFO - 登陆成功
+2019-03-15 09:24:29,452 - SearchFilter - INFO - 输入框输入葡萄酒，点击搜索
+2019-03-15 09:24:29,588 - SearchFilter - INFO - 随机点击搜索酒款
+2019-03-15 09:24:35,832 - SearchFilter - INFO - 系列筛选
+2019-03-15 09:24:36,958 - SearchFilter - INFO - 产区筛选
+2019-03-15 09:24:38,074 - SearchFilter - INFO - 清空筛选

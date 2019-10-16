@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>user</title>
+</head>
+<body>
+{% for u in user %}
+  neckname:  {{ u.neckname }}
+  <br>
+  id:  {{ u.id }}
+  <br>
+  email:  {{ u.email }}
+  <br>
+  role:  {{ u.role }}
+    <br>
+{% endfor %}
+</body>
+</html>

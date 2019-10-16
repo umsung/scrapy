@@ -1,0 +1,23 @@
+2019-03-18 08:50:57,547 - BrowserEngine - INFO - 获取浏览器类型 Chrome
+2019-03-18 08:50:57,548 - BrowserEngine - INFO - 获取打开的网址 http://mall.wine-world.com/
+2019-03-18 08:51:16,277 - BrowserEngine - INFO - 浏览器类型 Chrome
+2019-03-18 08:51:26,072 - BrowserEngine - INFO - 打开网址 http://mall.wine-world.com/
+2019-03-18 08:51:26,454 - BrowserEngine - INFO - 窗口最大化
+2019-03-18 08:51:26,456 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2019-03-18 08:51:40,114 - MainLand - INFO - 登陆成功
+2019-03-18 08:51:56,171 - SearchFilter - INFO - 输入框输入葡萄酒，点击搜索
+2019-03-18 08:51:56,333 - SearchFilter - INFO - 随机点击搜索酒款
+2019-03-18 08:52:12,721 - SearchFilter - INFO - 系列筛选
+2019-03-18 08:52:14,746 - SearchFilter - INFO - 产区筛选
+2019-03-18 08:52:16,448 - SearchFilter - INFO - 清空筛选
+2019-03-18 08:52:36,976 - GoodsPrompt - INFO - 现货价格正确:3860.00
+2019-03-18 08:52:51,082 - BasePage - INFO - 返回
+2019-03-18 08:53:00,177 - BasePage - INFO - 返回
+2019-03-18 08:53:08,290 - BasePage - INFO - Closing and quit the browser.
+2019-03-18 08:53:16,440 - BasePage - INFO - Closing and quit the browser.
+2019-03-18 08:53:18,658 - BasePage - INFO - Closing and quit the browser.
+2019-03-18 08:53:20,816 - BasePage - INFO - Closing and quit the browser.
+2019-03-18 08:53:40,326 - Primeur - INFO - 期酒价格正确:4600
+2019-03-18 08:53:44,964 - BasePage - INFO - 返回
+2019-03-18 08:53:49,107 - BasePage - INFO - 返回
+2019-03-18 08:53:55,042 - BasePage - INFO - Closing and quit the browser.

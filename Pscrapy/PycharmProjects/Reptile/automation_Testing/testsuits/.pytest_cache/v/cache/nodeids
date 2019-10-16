@@ -1,0 +1,4 @@
+[
+  "baidu_search.py::BaiduSearch::test_baidu_search",
+  "baidu_search.py::BaiduSearch::test_search2"
+]

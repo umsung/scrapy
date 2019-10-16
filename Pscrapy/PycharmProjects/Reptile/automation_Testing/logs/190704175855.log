@@ -1,0 +1,7 @@
+2019-07-04 17:58:55,992 - BrowserEngine - INFO - 获取浏览器类型 Chrome
+2019-07-04 17:58:55,993 - BrowserEngine - INFO - 获取打开的网址 https://www.baidu.com
+2019-07-04 17:58:59,812 - BrowserEngine - INFO - 浏览器类型 Chrome
+2019-07-04 17:59:02,183 - BrowserEngine - INFO - 打开网址 https://www.baidu.com
+2019-07-04 17:59:03,322 - BrowserEngine - INFO - 窗口最大化
+2019-07-04 17:59:03,324 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2019-07-04 17:59:03,574 - BrowserEngine - INFO - Now, Close and quit the browser.

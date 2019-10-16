@@ -1,0 +1,7 @@
+2019-03-13 14:14:05,522 - BrowserEngine - INFO - 获取浏览器类型 Chrome
+2019-03-13 14:14:05,522 - BrowserEngine - INFO - 获取打开的网址 https://www.baidu.com
+2019-03-13 14:14:09,956 - BrowserEngine - INFO - 浏览器类型 Chrome
+2019-03-13 14:14:11,563 - BrowserEngine - INFO - 打开网址 https://www.baidu.com
+2019-03-13 14:14:11,956 - BrowserEngine - INFO - 窗口最大化
+2019-03-13 14:14:11,959 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2019-03-13 14:14:19,304 - BasePage - INFO - Had take screenshot and save to folder : /screenshots

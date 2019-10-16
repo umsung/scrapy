@@ -1,0 +1,874 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9ff65dd3-7641-45c0-b8d5-9601c1b339c1" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/scrapy$font.coverage" NAME="font Coverage Results" MODIFIED="1558678841976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/ven" />
+    <SUITE FILE_PATH="coverage/Pscrapy$request_login.coverage" NAME="request_login Coverage Results" MODIFIED="1563869842898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/Login_about" />
+    <SUITE FILE_PATH="coverage/scrapy$0001.coverage" NAME="0001 Coverage Results" MODIFIED="1557731938129" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/Pandas" />
+    <SUITE FILE_PATH="coverage/scrapy$MMI_01_2_2__3_.coverage" NAME="MMI_01_2_2 (3) Coverage Results" MODIFIED="1555397663428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quotetutorail/quotetutorail" />
+    <SUITE FILE_PATH="coverage/scrapy$getter.coverage" NAME="getter Coverage Results" MODIFIED="1560844095319" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/ProxyPool/proxypool" />
+    <SUITE FILE_PATH="coverage/Pscrapy$selenium_HPV_Brush.coverage" NAME="selenium_HPV_Brush Coverage Results" MODIFIED="1561360551802" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/ven" />
+    <SUITE FILE_PATH="coverage/Pscrapy$JingDong.coverage" NAME="JingDong Coverage Results" MODIFIED="1562834428677" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/ven" />
+    <SUITE FILE_PATH="coverage/scrapy$wash_zhiyao.coverage" NAME="wash_zhiyao Coverage Results" MODIFIED="1556011895901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/Pandas" />
+    <SUITE FILE_PATH="coverage/scrapy$udp_server.coverage" NAME="udp_server Coverage Results" MODIFIED="1557385169380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/tcp_ip" />
+    <SUITE FILE_PATH="coverage/scrapy$.coverage" NAME="文章字体破解 Coverage Results" MODIFIED="1558600712242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/ven" />
+    <SUITE FILE_PATH="coverage/scrapy$selenium_login.coverage" NAME="selenium_login Coverage Results" MODIFIED="1560926320045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/Login_about" />
+    <SUITE FILE_PATH="coverage/scrapy$ttc.coverage" NAME="ttc Coverage Results" MODIFIED="1555495939599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/ven" />
+    <SUITE FILE_PATH="coverage/scrapy$db.coverage" NAME="db Coverage Results" MODIFIED="1560492434139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/CookiesPool/cookiespool" />
+    <SUITE FILE_PATH="coverage/scrapy$app.coverage" NAME="app Coverage Results" MODIFIED="1557893228148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/flask" />
+    <SUITE FILE_PATH="coverage/scrapy$getUrl.coverage" NAME="getUrl Coverage Results" MODIFIED="1561013801231" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/ven" />
+    <SUITE FILE_PATH="coverage/Pscrapy$tcp_server.coverage" NAME="tcp_server Coverage Results" MODIFIED="1566372977470" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/tcp_ip" />
+    <SUITE FILE_PATH="coverage/Pscrapy$read_excel.coverage" NAME="read_excel Coverage Results" MODIFIED="1563422432511" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/Pandas" />
+    <SUITE FILE_PATH="coverage/scrapy$MMI_01_2_2__4_.coverage" NAME="MMI_01_2_2 (4) Coverage Results" MODIFIED="1555398676218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quotetutorail" />
+    <SUITE FILE_PATH="coverage/scrapy$importer.coverage" NAME="importer Coverage Results" MODIFIED="1560483810465" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/CookiesPool/cookiespool" />
+    <SUITE FILE_PATH="coverage/scrapy$tcp_server.coverage" NAME="tcp_server Coverage Results" MODIFIED="1557387283234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/tcp_ip" />
+    <SUITE FILE_PATH="coverage/scrapy$MMI_01_2_2.coverage" NAME="MMI_01_2_2 Coverage Results" MODIFIED="1555396563471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/Documents/Tencent Files/1628323167/FileRecv/Ent-4" />
+    <SUITE FILE_PATH="coverage/Pscrapy$py_test_in_test_yaml_py.coverage" NAME="py.test in test_yaml.py Coverage Results" MODIFIED="1563507200311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/yaml" />
+    <SUITE FILE_PATH="coverage/Pscrapy$shuiyun.coverage" NAME="shuiyun Coverage Results" MODIFIED="1563420239726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/ven" />
+    <SUITE FILE_PATH="coverage/scrapy$dazhongdianping.coverage" NAME="dazhongdianping Coverage Results" MODIFIED="1555494966885" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/ven" />
+    <SUITE FILE_PATH="coverage/scrapy$py_test_in_mydict_test_py.coverage" NAME="py.test in mydict_test.py Coverage Results" MODIFIED="1557719523801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/ven" />
+    <SUITE FILE_PATH="coverage/scrapy$MMI_01_2_2__1_.coverage" NAME="MMI_01_2_2 (1) Coverage Results" MODIFIED="1555397242810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quotetutorail/quotetutorail" />
+    <SUITE FILE_PATH="coverage/scrapy$selenium_HPV_Brush.coverage" NAME="selenium_HPV_Brush Coverage Results" MODIFIED="1557708307439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/ven/taobao" />
+    <SUITE FILE_PATH="coverage/scrapy$ajax_test.coverage" NAME="ajax_test Coverage Results" MODIFIED="1558084652393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/ven" />
+    <SUITE FILE_PATH="coverage/scrapy$tcp_client.coverage" NAME="tcp_client Coverage Results" MODIFIED="1557387286589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/tcp_ip" />
+    <SUITE FILE_PATH="coverage/Pscrapy$tcp_client.coverage" NAME="tcp_client Coverage Results" MODIFIED="1566372979224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/tcp_ip" />
+    <SUITE FILE_PATH="coverage/scrapy$py_test_in_test_request_cookies_py.coverage" NAME="py.test in test_request_cookies.py Coverage Results" MODIFIED="1560321069986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/Login_about" />
+    <SUITE FILE_PATH="coverage/scrapy$Learn_pd.coverage" NAME="Learn_pd Coverage Results" MODIFIED="1560389229160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/Pandas" />
+    <SUITE FILE_PATH="coverage/scrapy$tcp_client2.coverage" NAME="tcp_client2 Coverage Results" MODIFIED="1557372504630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/tcp_ip" />
+    <SUITE FILE_PATH="coverage/scrapy$selenium_HPV_Brush__1_.coverage" NAME="selenium_HPV_Brush (1) Coverage Results" MODIFIED="1559177152526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/ven" />
+    <SUITE FILE_PATH="coverage/scrapy$excel.coverage" NAME="excel Coverage Results" MODIFIED="1555412907642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/Pandas" />
+    <SUITE FILE_PATH="coverage/Pscrapy$video_test.coverage" NAME="video_test Coverage Results" MODIFIED="1562640458131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/video" />
+    <SUITE FILE_PATH="coverage/scrapy$openread.coverage" NAME="openread Coverage Results" MODIFIED="1555926540956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/Pandas" />
+    <SUITE FILE_PATH="coverage/scrapy$run.coverage" NAME="run Coverage Results" MODIFIED="1560924420820" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/ProxyPool" />
+    <SUITE FILE_PATH="coverage/scrapy$request_cookies_test.coverage" NAME="request_cookies_test Coverage Results" MODIFIED="1560491307998" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/Login_about" />
+    <SUITE FILE_PATH="coverage/scrapy$schedule.coverage" NAME="schedule Coverage Results" MODIFIED="1560849854825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/ProxyPool/proxypool" />
+    <SUITE FILE_PATH="coverage/Pscrapy$selenium_login.coverage" NAME="selenium_login Coverage Results" MODIFIED="1562830121495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/Login_about" />
+    <SUITE FILE_PATH="coverage/scrapy$MMI_01_2_2__2_.coverage" NAME="MMI_01_2_2 (2) Coverage Results" MODIFIED="1555397283451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/quotetutorail" />
+    <SUITE FILE_PATH="coverage/scrapy$getNovel.coverage" NAME="getNovel Coverage Results" MODIFIED="1560238372205" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/ven" />
+    <SUITE FILE_PATH="coverage/scrapy$flask_home.coverage" NAME="flask_home Coverage Results" MODIFIED="1557825131438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/flask" />
+    <SUITE FILE_PATH="coverage/scrapy$b.coverage" NAME="b站爬虫 Coverage Results" MODIFIED="1559207904666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/Documents/Tencent Files/1628323167/FileRecv" />
+    <SUITE FILE_PATH="coverage/scrapy$qichezhijia.coverage" NAME="qichezhijia Coverage Results" MODIFIED="1558597679299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/ven" />
+    <SUITE FILE_PATH="coverage/scrapy$HPV_Brush.coverage" NAME="HPV_Brush Coverage Results" MODIFIED="1557222113343" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/ven" />
+    <SUITE FILE_PATH="coverage/Pscrapy$Red_Wars.coverage" NAME="Red_Wars Coverage Results" MODIFIED="1563159312751" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/AirTest" />
+    <SUITE FILE_PATH="coverage/scrapy$udp_client.coverage" NAME="udp_client Coverage Results" MODIFIED="1557385173752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/tcp_ip" />
+    <SUITE FILE_PATH="coverage/scrapy$db__1_.coverage" NAME="db (1) Coverage Results" MODIFIED="1560850333184" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/ProxyPool/proxypool" />
+    <SUITE FILE_PATH="coverage/Pscrapy$run_more_appium.coverage" NAME="run_more_appium Coverage Results" MODIFIED="1563936233786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/yaml" />
+    <SUITE FILE_PATH="coverage/scrapy$request_login.coverage" NAME="request_login Coverage Results" MODIFIED="1558947770041" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/Login_about" />
+    <SUITE FILE_PATH="coverage/scrapy$threading.coverage" NAME="threading Coverage Results" MODIFIED="1560228178356" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/ven" />
+    <SUITE FILE_PATH="coverage/scrapy$test.coverage" NAME="test Coverage Results" MODIFIED="1560995428989" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/Pandas" />
+    <SUITE FILE_PATH="coverage/Pscrapy$pandas_contact.coverage" NAME="pandas_contact Coverage Results" MODIFIED="1563440508273" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/Pandas" />
+    <SUITE FILE_PATH="coverage/Pscrapy$tools.coverage" NAME="tools Coverage Results" MODIFIED="1563521001622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/yaml" />
+    <SUITE FILE_PATH="coverage/scrapy$api.coverage" NAME="api Coverage Results" MODIFIED="1561000446158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/ProxyPool/proxypool" />
+    <SUITE FILE_PATH="coverage/Pscrapy$yaml_test.coverage" NAME="yaml_test Coverage Results" MODIFIED="1563517335175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/yaml" />
+    <SUITE FILE_PATH="coverage/scrapy$learn0416.coverage" NAME="learn0416 Coverage Results" MODIFIED="1557026995384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/Pandas" />
+    <SUITE FILE_PATH="coverage/Pscrapy$tcp_client2.coverage" NAME="tcp_client2 Coverage Results" MODIFIED="1566371544734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PycharmProjects/Reptile/tcp_ip" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-72569792">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.100" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="tcp_server.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/tcp_ip/tcp_server.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tcp_client.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/tcp_ip/tcp_client.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tcp_client2.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/tcp_ip/tcp_client2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="decorator6.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/装饰器/decorator6.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/ProxyPool/proxypool/utils.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/ProxyPool/proxypool/getter.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/ProxyPool/run.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/Login_about/ip_proxy.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/Pandas/test.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/ProxyPool/proxypool/api.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/ProxyPool/proxypool/db.py" />
+        <option value="$PROJECT_DIR$/quotetutorail/quotetutorail/spiders/Article.py" />
+        <option value="$PROJECT_DIR$/quotetutorail/quotetutorail/spiders/TanChePost.py" />
+        <option value="$PROJECT_DIR$/quotetutorail/quotetutorail/spiders/imgs.py" />
+        <option value="$PROJECT_DIR$/quotetutorail/quotetutorail/spiders/quotes.py" />
+        <option value="$PROJECT_DIR$/quotetutorail/quotetutorail/spiders/zhihu.py" />
+        <option value="$PROJECT_DIR$/quotetutorail/quotetutorail/spiders/weibo.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/ProxyPool/proxypool/schedule.py" />
+        <option value="$PROJECT_DIR$/quotetutorail/quotetutorail/middlewares.py" />
+        <option value="$PROJECT_DIR$/quotetutorail/quotetutorail/settings.py" />
+        <option value="$PROJECT_DIR$/quotetutorail/quotetutorail/pipelines.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/video/video_test.py" />
+        <option value="$PROJECT_DIR$/quotetutorail/main.py" />
+        <option value="$PROJECT_DIR$/quotetutorail/quotetutorail/main.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/ven/TaoBao_.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/Login_about/selenium_login.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/ven/JingDong.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/AirTest/Red_Wars.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/AirTest/utils/devices_utils.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/AirTest/utils/string_utils.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/AirTest/utils/file_utils.py" />
+        <option value="D:/用户目录/我的文档/Tencent Files/1628323167/FileRecv/pyppeteer淘宝登陆.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/AirTest/friends_circle.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/ven/getUrl.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/ven/shuiyun.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/Pandas/read_excel.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/Pandas/pandas_contact.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/yaml/homepage.yaml" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/yaml/loginpage.yaml" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/yaml/test_yaml.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/yaml/yaml_test.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/yaml/templetpage" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/yaml/templetpa" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/yaml/aa" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/yaml/page.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/yaml/tools.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/Login_about/request_login.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/yaml/pageelement/desired_caps.yaml" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/AirTest/appium_f_circle.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/run_appium.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/yaml/run_appium.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/yaml/run_more_appium.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/tcp_ip/tcp_client2.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/tcp_ip/tcp_client.py" />
+        <option value="$PROJECT_DIR$/PycharmProjects/Reptile/tcp_ip/tcp_server.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="20" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="820" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Pscrapy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pscrapy" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pscrapy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pscrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pscrapy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pscrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="Reptile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pscrapy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pscrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="Reptile" type="462c0819:PsiDirectoryNode" />
+              <item name="automation_framework_demo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pscrapy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pscrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="Reptile" type="462c0819:PsiDirectoryNode" />
+              <item name="tcp_ip" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pscrapy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Pscrapy" type="462c0819:PsiDirectoryNode" />
+              <item name="PycharmProjects" type="462c0819:PsiDirectoryNode" />
+              <item name="Reptile" type="462c0819:PsiDirectoryNode" />
+              <item name="装饰器" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Pscrapy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Pscrapy\PycharmProjects\Reptile\yaml" />
+      <recent name="E:\Pscrapy\PycharmProjects\Reptile\yaml\pageelement" />
+      <recent name="E:\Pscrapy\quotetutorail\quotetutorail" />
+      <recent name="E:\scrapy\PycharmProjects\Reptile\ven" />
+      <recent name="C:\scrapy\PycharmProjects\Reptile\ven" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\scrapy\PycharmProjects\Reptile\ven" />
+      <recent name="C:\scrapy\PycharmProjects\Reptile\Pandas" />
+      <recent name="C:\scrapy\quotetutorail\quotetutorail" />
+      <recent name="C:\scrapy\quotetutorail\quotetutorail\spiders" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.tcp_client">
+    <configuration name="request_login" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scrapy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PycharmProjects/Reptile/Login_about" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PycharmProjects/Reptile/Login_about/request_login.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="run_more_appium" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scrapy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PycharmProjects/Reptile/yaml" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PycharmProjects/Reptile/yaml/run_more_appium.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="tcp_client" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scrapy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PycharmProjects/Reptile/tcp_ip" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PycharmProjects/Reptile/tcp_ip/tcp_client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="tcp_client2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scrapy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PycharmProjects/Reptile/tcp_ip" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PycharmProjects/Reptile/tcp_ip/tcp_client2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="tcp_server" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="scrapy" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PycharmProjects/Reptile/tcp_ip" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PycharmProjects/Reptile/tcp_ip/tcp_server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.request_login" />
+      <item itemvalue="Python.run_more_appium" />
+      <item itemvalue="Python.tcp_server" />
+      <item itemvalue="Python.tcp_client" />
+      <item itemvalue="Python.tcp_client2" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.tcp_client" />
+        <item itemvalue="Python.tcp_server" />
+        <item itemvalue="Python.tcp_client2" />
+        <item itemvalue="Python.run_more_appium" />
+        <item itemvalue="Python.request_login" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9ff65dd3-7641-45c0-b8d5-9601c1b339c1" name="Default" comment="" />
+      <created>1555309309993</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555309309993</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="py_test_in_mydict_test_py - 2019.05.13 at 11h 52m 17s.xml">
+      <configuration name="py.test in mydict_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_request_cookies_py - 2019.06.12 at 14h 31m 34s.xml">
+      <configuration name="py.test in test_request_cookies.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_yaml_py - 2019.07.19 at 11h 33m 16s.xml">
+      <configuration name="py.test in test_yaml.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="py_test_in_test_yaml_py - 2019.07.19 at 11h 33m 21s.xml">
+      <configuration name="py.test in test_yaml.py" configurationId="tests" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.49855492" weight="0.3286517" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.3699422" side_tool="true" weight="0.34269664" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49927744" weight="0.3286517" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.6300578" visible="true" weight="0.45646068" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49783236" weight="0.1994382" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25216764" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32875723" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988764" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.31741574" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30274567" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="8" sideWeight="0.49855492" weight="0.3286517" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.6300578" weight="0.22893259" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.31741574" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49927744" weight="0.3286517" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988764" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32875723" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49783236" weight="0.1994382" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.3699422" side_tool="true" weight="0.34269664" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/quotetutorail/quotetutorail/pipelines.py</url>
+          <line>6</line>
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/quotetutorail/MMI_01_2_2.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/PycharmProjects/Reptile/yaml/run_appium.py</url>
+          <line>20</line>
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/Pandas/wash_zhiyao.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1854" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/Pandas/learn0416.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/Pandas/Learn_pd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/Pandas/excel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/yaml/templetpage" />
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/yaml/templetpa" />
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/yaml/pageelement/homepage.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/ProxyPool/proxypool/getter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="37" column="40" lean-forward="true" selection-start-line="37" selection-start-column="40" selection-end-line="37" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/ven/shuiyun.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="567">
+          <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/Pandas/openread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="472">
+          <caret line="25" column="2" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/Login_about/request_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/ven/弹个车.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="82" column="12" lean-forward="true" selection-start-line="81" selection-start-column="3" selection-end-line="82" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotetutorail/quotetutorail/spiders/xinhao.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/yaml/templetpate">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/ven/taobao.csv">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/ven/JingDong.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="110" column="17" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/ven/TaoBao_.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1659">
+          <caret line="89" column="23" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/ven/时间格式转换.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="15" column="43" selection-start-line="15" selection-start-column="43" selection-end-line="15" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/ven/thread_test.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotetutorail/quotetutorail/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-588">
+          <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotetutorail/quotetutorail/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1932">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotetutorail/quotetutorail/spiders/weibo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="25" column="62" selection-start-line="25" selection-start-column="54" selection-end-line="25" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/yaml/page.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/Pandas/pandas技巧.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="176" column="28" selection-start-line="176" selection-start-column="28" selection-end-line="176" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotetutorail/quotetutorail/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6195">
+          <caret line="311" column="56" selection-start-line="311" selection-start-column="56" selection-end-line="311" selection-end-column="56" />
+          <folding>
+            <element signature="e#193#203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/yaml/pageelement/loginpage.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="46" column="51" selection-start-line="46" selection-start-column="51" selection-end-line="46" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/yaml/pageelement/desired_caps.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="8" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/yaml/tools.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/AirTest/appium_f_circle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1953">
+          <caret line="103" column="10" selection-start-line="103" selection-start-column="10" selection-end-line="104" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/AirTest/Red_Wars.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="73" column="27" selection-start-line="73" selection-start-column="27" selection-end-line="73" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/AirTest/utils/devices_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="33" column="25" lean-forward="true" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/automation_framework_demo/testsuits/TestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/AirTest/friends_circle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1302">
+          <caret line="66" column="13" selection-start-line="66" selection-start-column="13" selection-end-line="66" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/装饰器/decorator2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/ven/dazhongdianping.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2331">
+          <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/yaml/run_more_appium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/AirTest/utils/file_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="53" column="29" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/ven/getUrl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1995">
+          <caret line="109" column="42" selection-start-line="109" selection-start-column="42" selection-end-line="109" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/automation_framework_demo/testsuits/baidu_search.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/yaml/run_appium.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/AirTest/utils/string_utils.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-37" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/ProxyPool/setup.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/ProxyPool/run.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/ProxyPool/proxypool/schedule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-112">
+          <caret line="71" column="39" lean-forward="true" selection-start-line="71" selection-start-column="39" selection-end-line="71" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/automation_framework_demo/testsuits/test_nba_news_view.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="25" column="69" selection-start-line="25" selection-start-column="69" selection-end-line="25" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/ProxyPool/proxypool/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/automation_framework_demo/framework/browser_engine.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/装饰器/decorator6.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/tcp_ip/tcp_client2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/tcp_ip/tcp_server.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="34" column="17" lean-forward="true" selection-start-line="34" selection-start-column="17" selection-end-line="34" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PycharmProjects/Reptile/tcp_ip/tcp_client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="15" column="28" lean-forward="true" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

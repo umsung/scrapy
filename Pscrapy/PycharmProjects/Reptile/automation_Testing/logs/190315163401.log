@@ -1,0 +1,11 @@
+2019-03-15 16:34:01,587 - BrowserEngine - INFO - 获取浏览器类型 Chrome
+2019-03-15 16:34:01,588 - BrowserEngine - INFO - 获取打开的网址 http://mall.wine-world.com/
+2019-03-15 16:34:03,944 - BrowserEngine - INFO - 浏览器类型 Chrome
+2019-03-15 16:34:06,945 - BrowserEngine - INFO - 打开网址 http://mall.wine-world.com/
+2019-03-15 16:34:07,365 - BrowserEngine - INFO - 窗口最大化
+2019-03-15 16:34:07,366 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2019-03-15 16:34:11,183 - MainLand - INFO - 登陆成功
+2019-03-15 16:34:27,199 - Primeur - INFO - 期酒价格错误:1260
+2019-03-15 16:34:27,494 - BasePage - INFO - Had take screenshot and save to folder : /screenshots
+2019-03-15 16:34:31,553 - BasePage - INFO - 返回
+2019-03-15 16:34:32,902 - BasePage - INFO - 返回

@@ -1,0 +1,11 @@
+2019-03-15 14:01:40,618 - BrowserEngine - INFO - 获取浏览器类型 Chrome
+2019-03-15 14:01:40,619 - BrowserEngine - INFO - 获取打开的网址 http://mall.wine-world.com/
+2019-03-15 14:01:46,980 - BrowserEngine - INFO - 浏览器类型 Chrome
+2019-03-15 14:01:50,283 - BrowserEngine - INFO - 打开网址 http://mall.wine-world.com/
+2019-03-15 14:01:50,682 - BrowserEngine - INFO - 窗口最大化
+2019-03-15 14:01:50,683 - BrowserEngine - INFO - Set implicitly wait 10 seconds.
+2019-03-15 14:01:54,654 - MainLand - INFO - 登陆成功
+2019-03-15 14:02:07,812 - GoodsPrompt - INFO - 现货价格正确:1050.00
+2019-03-15 14:02:21,740 - BasePage - INFO - 返回
+2019-03-15 14:02:26,871 - BasePage - INFO - 返回
+2019-03-15 14:02:34,738 - BasePage - INFO - Closing and quit the browser.
